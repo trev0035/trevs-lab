@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 238, 238);
+    flex-direction: column;
+    .border{
+    background-color: #193a5b;
+    padding: 45px;
+    }
+    .padding{
+    background-color: #42b3dd;
+    padding: 45px;
+    }
+    .content{
+    background-color: #299baf;
+    padding: 45px;
+    font-size: 78px;
+    }
+    #inputs{
+    display: flex;
+    flex-direction: row;
+    }
+    #sliders{
+    margin-right: 30px;
+    color: #3a3b3c;
+    }
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color:#043567;
+}
